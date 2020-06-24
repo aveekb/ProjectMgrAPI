@@ -1,0 +1,17 @@
+
+.vs
+
+packages
+projectManager/bin
+projectManager/obj
+projectManager/ApiLogs
+
+
+ProjectManager.LoadTest/bin/*
+ProjectManager.LoadTest/obj/*
+
+
+ProjectManager.Test/bin/*
+ProjectManager.Test/obj/*
+
+
