@@ -62,8 +62,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -71,8 +71,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -92,8 +92,8 @@ namespace ProjectManager.Test
         {
             var context = new MockProjectManagerEntities();
             var user = new Models.User();
-            user.FirstName = "ankita";
-            user.LastName = "ghosh";
+            user.FirstName = "Rishaan";
+            user.LastName = "Basu";
             user.EmployeeId = "123456";
             user.UserId = 123;
             var controller = new UserController(new BC.UserBC(context));
@@ -112,8 +112,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -121,8 +121,8 @@ namespace ProjectManager.Test
             context.Users = users;
 
             var user = new Models.User();
-            user.FirstName = "Khush";
-            user.LastName = "jain";
+            user.FirstName = "Adrija";
+            user.LastName = "Basu";
             user.EmployeeId = "123";
             user.UserId = 503322;
 
@@ -130,7 +130,7 @@ namespace ProjectManager.Test
             var result = controller.UpdateUserDetails(user) as JSendResponse;
 
             Assert.IsNotNull(result);
-            Assert.AreEqual((context.Users.Local[0]).First_Name.ToUpper(), "KHUSH");
+            Assert.AreEqual((context.Users.Local[0]).First_Name.ToUpper(), "ADRIJA");
         }
 
         [TestMethod]
@@ -141,8 +141,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -150,8 +150,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -159,8 +159,8 @@ namespace ProjectManager.Test
             context.Users = users;
 
             var user = new Models.User();
-            user.FirstName = "Khushboo";
-            user.LastName = "Jain";
+            user.FirstName = "Adrija";
+            user.LastName = "Basu";
             user.EmployeeId = "503322";
             user.UserId = 503322;
 
@@ -180,8 +180,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -189,8 +189,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -213,8 +213,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -222,8 +222,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -246,8 +246,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -255,8 +255,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -279,8 +279,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -288,8 +288,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -312,8 +312,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -321,8 +321,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -345,8 +345,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -354,8 +354,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -378,8 +378,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -387,8 +387,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -411,8 +411,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -420,8 +420,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -444,8 +444,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -453,8 +453,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -477,8 +477,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -486,8 +486,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -510,8 +510,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -519,8 +519,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -543,8 +543,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -552,8 +552,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -576,8 +576,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -585,8 +585,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
@@ -609,8 +609,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "418220",
-                First_Name = "Prateek",
-                Last_Name = "Gangopadhyay",
+                First_Name = "Aveek",
+                Last_Name = "Basu",
                 Project_ID = 123,
                 Task_ID = 123,
                 User_ID = 418220
@@ -618,8 +618,8 @@ namespace ProjectManager.Test
             users.Add(new DAC.User()
             {
                 Employee_ID = "503322",
-                First_Name = "Khushboo",
-                Last_Name = "Jain",
+                First_Name = "Adrija",
+                Last_Name = "Basu",
                 Project_ID = 1234,
                 Task_ID = 1234,
                 User_ID = 503322
