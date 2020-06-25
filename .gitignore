@@ -14,4 +14,5 @@ ProjectManager.LoadTest/obj/*
 ProjectManager.Test/bin/*
 ProjectManager.Test/obj/*
 
-
+ProjectManagersTool.Database/bin/*
+ProjectManagersTool.Database/obj/*
