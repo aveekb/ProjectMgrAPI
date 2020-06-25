@@ -1,0 +1,6 @@
+D:\Project_Space\ProjectMgrAPI\ProjectManagersTool.Database\bin\Debug\ProjectManagersTool.Database.dacpac
+D:\Project_Space\ProjectMgrAPI\ProjectManagersTool.Database\bin\Debug\ProjectManagersTool.Database.dll
+D:\Project_Space\ProjectMgrAPI\ProjectManagersTool.Database\bin\Debug\ProjectManagersTool.Database.pdb
+D:\Project_Space\ProjectMgrAPI\ProjectManagersTool.Database\obj\Debug\ProjectManagersTool.Database.sqlprojAssemblyReference.cache
+D:\Project_Space\ProjectMgrAPI\ProjectManagersTool.Database\obj\Debug\ProjectManagersTool.Database.dll
+D:\Project_Space\ProjectMgrAPI\ProjectManagersTool.Database\obj\Debug\ProjectManagersTool.Database.pdb
