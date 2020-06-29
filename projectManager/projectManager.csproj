@@ -168,7 +168,7 @@
     <Content Include="DAC\ProjectManager.edmx.diagram">
       <DependentUpon>ProjectManager.edmx</DependentUpon>
     </Content>
-    <None Include="Properties\PublishProfiles\IISDeploy.pubxml" />
+    <None Include="Properties\PublishProfiles\IISWebDeploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
