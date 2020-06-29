@@ -16,7 +16,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <NameOfLastUsedPublishProfile>CustomProfile</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>IISDeploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>
